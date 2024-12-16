@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Youtube Auto Audio Traduction Remover",
+    "name": "YT Audio Traduction Remover",
     "version": "1.0",
-    "description": "Youtube Auto Audio Traduction Remover.",
+    "description": "Light addon to automatically switch back to the original sound track on Youtube.",
     "icons": {
       "48": "icons/icon-48.png",
       "96": "icons/icon-96.png"
