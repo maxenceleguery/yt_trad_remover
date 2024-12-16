@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Auto Audio Traduction Remover",
+    "version": "1.0",
+    "description": "Youtube Auto Audio Traduction Remover.",
+    "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+    "permissions": [
+        "activeTab",
+        "https://www.youtube.com/"
+    ],
+    "content_scripts": [
+        {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["changeAudioTrack.js"]
+        }
+    ],
+    "browser_action": {
+      "default_icon": {
+        "48": "icons/icon-48.png"
+      },
+      "default_popup": "popup/popup.html"
+    }
+  }
+  
